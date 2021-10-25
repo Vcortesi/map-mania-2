@@ -18,7 +18,7 @@ var places = [
 ]
 
 function initMap() {
-  alert("Thank-you for wanting to play this game!\nIn order to play, look for the 10 hidden markers\nLook at the hints tab for hints on whether or not you are hot or cold!\nIf you decide to give up, click on the cheat button in the top right corner!")
+  alert("Thank-you for wanting to play this game!\nIn order to play, look for the 10 hidden markers\nLook at the hints tab for hints on whether or not you are hot or cold!\nIf you decide to give up, click on the cheat button in the top left corner!")
 
   map = new google.maps.Map(document.getElementById("map"), {
     center: { lat: -34.397, lng: 150.644 },
