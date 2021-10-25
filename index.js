@@ -82,7 +82,7 @@ function updateGame(){
     
     i++;
     initScore(i);
-    alert("Congradulation! You just found marker number: " + (i))
+    alert("Congratulations! You just found marker number: " + (i))
 
     map.setCenter( {lat: -34.397, lng: 150.644 });
     map.setZoom(6) 
